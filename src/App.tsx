@@ -3,6 +3,7 @@ import{Route,BrowserRouter as Router, Routes} from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import MainContent from "./components/MainContent";
 import ProductPage from "./components/ProductPage";
+import TopSellers from "./components/TopSellers";
 
 
 export default function App() {
@@ -16,6 +17,8 @@ export default function App() {
           <Route path="/product/:id" element={<ProductPage/>}/>
           
         </Routes>
+
+        <div><TopSellers/></div>
       </div>
 
     </div>
