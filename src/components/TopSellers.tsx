@@ -16,7 +16,7 @@ const TopSellers = () => {
   useEffect(()=>{
     const fetchData = async()=>{
       try{
-        const response = await fetch('https://randomuser.me/api/?results=5');
+        const response = await fetch('https://randomuser.me/api/?results=8');
         const data = await response.json();
 
       const authorsData: Author[] = data.results.map((user: any) =>({

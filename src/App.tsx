@@ -9,7 +9,7 @@ import TopSellers from "./components/TopSellers";
 export default function App() {
   return(
      <Router>
-    <div className="flex h-screen">
+    <div className="flex h-screen ">
       <Sidebar/>
       <div className="rounded w-full flex justify-center flex-wrap">
         <Routes>

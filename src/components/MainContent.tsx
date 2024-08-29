@@ -173,6 +173,8 @@ const MainContent = () => {
 
 
             {/* Previous */}
+
+
             <button 
                onClick={()=> handlePageChange(currentPage -1)}
                disabled= {currentPage === 1}
@@ -183,6 +185,10 @@ const MainContent = () => {
 
 
             {/* 1,2,3,4,5 */}
+
+
+
+
             <div className="flex flex-wrap justify-center">
                 {getPaginationButtons().map((page)=>(
                     <button
@@ -199,6 +205,8 @@ const MainContent = () => {
             </div>
 
               {/* next */}
+
+
             <button
              onClick={()=>handlePageChange(currentPage +1)}
              disabled={currentPage === totalPages}
@@ -219,3 +227,8 @@ const MainContent = () => {
 };
 
 export default MainContent;
+
+
+
+
+

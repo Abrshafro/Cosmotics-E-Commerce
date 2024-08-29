@@ -30,12 +30,12 @@ const {
 
   const[categories, setCategories]=useState<string[]>([]);
   const[keywords]=useState<string[]>([
-    "apple",
-    "watch",
-    "fashion",
-    "trend",
-    "shoes",
-    "shirt",
+    "Mascara",
+    "Lipstick",
+    "Nail Polish",
+    "Eau de",
+    "Palette",
+    
 
   ]);
 
@@ -93,7 +93,7 @@ const {
 
   return (
      <div className="w-64 p-5 h-screen">
-    <h1 className="text-2xl font-bold mb-10 mt-4">React Store</h1>
+    <h1 className="text-2xl font-bold mb-10 mt-4">Ethio Market</h1>
     <section>
       <input
        type="text" 
@@ -146,6 +146,8 @@ const {
        </section>
 
        {/* Keyword sections */}
+
+
        <div className="mb-5 mt-4">
         <h2 className="text-xl font-semibold mb-3">Keywords</h2>
         <div>
@@ -174,3 +176,6 @@ const {
 };
 
 export default Sidebar;
+
+
+
