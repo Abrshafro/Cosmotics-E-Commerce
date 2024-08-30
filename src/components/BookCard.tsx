@@ -1,6 +1,4 @@
 import {Link} from "react-router-dom";
-
-//import React from 'react';
 interface BookCardProps{
     id: string;
     title: string;

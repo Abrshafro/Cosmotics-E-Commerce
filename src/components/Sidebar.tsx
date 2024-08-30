@@ -21,7 +21,7 @@ const {
   setMinPrice,
   maxPrice,
   setMaxPrice,
-  keyword,
+  
   setKeyword,
 } = useFilter();
 
